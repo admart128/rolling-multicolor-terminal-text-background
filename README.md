@@ -4,10 +4,7 @@
 
     A Python script that cycles through background colors for text in the terminal.
 
-<video width="320" height="240" autoplay>
-  <source src="rmtt-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![](rmtt-demo.gif)
 
 ### Requirements
 
@@ -26,9 +23,9 @@
 
     Colors:
 
-    colors = [
-        93, 99, 105, 111, 117, 123, 122, 121, 120, 119, 118, 190, 226, 220, 214, 208, 202, 130, 131, 132, 138, 144, 150, 156, 120, 14, 108, 102, 96, 90, 91, 92
-    ]
+        colors = [
+            93, 99, 105, 111, 117, 123, 122, 121, 120, 119, 118, 190, 226, 220, 214, 208, 202, 130, 131, 132, 138, 144, 150, 156, 120, 14, 108, 102, 96, 90, 91, 92
+        ]
     
     Time:
 
@@ -36,14 +33,21 @@
         
 ### How to Customize
 
-    You can customize colors, and the order in which they appear, by changing the values in the `colors` array using the following table as a guide:
+    Colors:
     
-        https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
+        You can customize colors, and the order in which they appear, by changing the values in the `colors` array using the table below as a guide.
 
-    You can also change the time between color changes by changing the parameter in the `time.sleep()` function.
+    Time:
+    
+        You can also change the time between color changes by changing the parameter in the `time.sleep()` function.
 
+![Xterm 256-color chart](https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg)
+
+Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Xterm_256color_chart.svg), CC BY-SA 3.0
+
+    
 ### Author
 
-Adam Martinez
-https://github.com/admart128/
-https://twitter.com/admart128
+Adam Martinez  
+https://github.com/admart128/  
+https://twitter.com/admart128  
